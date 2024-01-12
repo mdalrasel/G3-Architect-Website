@@ -2,5 +2,66 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@700&family=Roboto:ital,wght@1,700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 *{
 font-family: 'Work Sans', sans-serif;
-
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+    
+}
+.nav-title{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    color:#424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav li a {
+    text-decoration: none;
+}
+.banner{
+    text-align: center;
+}
+.banner h1{
+    color:#131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner p{
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    width: 180px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FF900E;
+    border-color:#FFF;
+}
+.btn-primary:hover{
+    background-color: #FFF;
+    color: #FF900E;
+    border-color: #FF900E;
+    cursor: pointer;
+}
+.banner img {
+    width: 1440px;
+    height: 700px;
 }
